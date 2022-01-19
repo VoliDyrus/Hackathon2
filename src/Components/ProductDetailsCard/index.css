@@ -1,3 +1,7 @@
+.product-list {
+  display: block;
+}
+
 .card-holder {
   display: inline-block;
 }

@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./Components/Header";
 import ProductList from "./Components/ProductList";
+import ReviewsSession from "./Components/ReviewsSession";
 import Slider from "./Components/Slider";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Slider />
       <ProductList />
+      <ReviewsSession />
     </div>
   );
 }
