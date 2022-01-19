@@ -1,0 +1,312 @@
+{
+  "divisions": {
+    "kitchen": [
+      {
+        "images": [
+          {
+            "id": 1,
+            "src": "https://cdn.pixabay.com/photo/2016/12/30/07/59/kitchen-1940174_1280.jpg"
+          },
+          {
+            "id": 2,
+            "src": "https://cdn.pixabay.com/photo/2016/12/30/07/59/kitchen-1940174_1280.jpg"
+          },
+          {
+            "id": 3,
+            "src": "https://cdn.pixabay.com/photo/2016/12/30/07/59/kitchen-1940174_1280.jpg"
+          },
+          {
+            "id": 4,
+            "src": "https://cdn.pixabay.com/photo/2016/12/30/07/59/kitchen-1940174_1280.jpg"
+          },
+          {
+            "id": 5,
+            "src": "https://cdn.pixabay.com/photo/2016/12/30/07/59/kitchen-1940174_1280.jpg"
+          }
+        ],
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis qui sint incidunt pariatur eos et impedit facilis dicta! Eligendi modi qui voluptates aspernatur eaque impedit tempora vel neque est rem.",
+        "components": {
+          "furniture": [
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/02/20/15/19/chair-643246_1280.jpg",
+              "name": "chair",
+              "price": 20.0
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2014/12/21/23/48/counter-576092_1280.png",
+              "name": "counter",
+              "price": 50.3
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2020/04/02/15/47/coffee-table-4995638_1280.png",
+              "name": "table",
+              "price": 45.1
+            }
+          ],
+          "tools": [
+            {
+              "image": "https://cdn.pixabay.com/photo/2017/04/18/15/42/akkuschrauber-2239493_1280.jpg",
+              "name": "drill",
+              "price": 80.0
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2012/04/13/21/06/screwdriver-33634_1280.png",
+              "name": "screwdriver",
+              "price": 10.9
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/10/15/00/27/wrench-988748_1280.jpg",
+              "name": "wrench",
+              "price": 15.7
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2017/04/04/17/14/claw-hammer-2202195_1280.jpg",
+              "name": "hammer",
+              "price": 12.3
+            }
+          ],
+          "hardware": [
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/11/20/06/32/screw-1052508_1280.jpg",
+              "name": "screws",
+              "price": 2.0
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/03/17/00/36/nails-677031_1280.jpg",
+              "name": "nails",
+              "price": 1.3
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2016/07/20/19/25/nuts-1531066_1280.jpg",
+              "name": "nuts",
+              "price": 1.7
+            }
+          ]
+        },
+        "comments": [
+          {
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "user": "Angie00",
+            "date": "10/01/2022"
+          },
+          {
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "user": "Angie01",
+            "date": "10/01/2022"
+          },
+          {
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "user": "Angie02",
+            "date": "10/01/2022"
+          }
+        ]
+      }
+    ],
+    "office": [
+      {
+        "images": [
+          {
+            "id": 1,
+            "src": "https://cdn.pixabay.com/photo/2015/04/20/06/46/office-730681_1280.jpg"
+          },
+          {
+            "id": 2,
+            "src": "https://cdn.pixabay.com/photo/2015/04/20/06/46/office-730681_1280.jpg"
+          },
+          {
+            "id": 3,
+            "src": "https://cdn.pixabay.com/photo/2015/04/20/06/46/office-730681_1280.jpg"
+          },
+          {
+            "id": 4,
+            "src": "https://cdn.pixabay.com/photo/2015/04/20/06/46/office-730681_1280.jpg"
+          },
+          {
+            "id": 5,
+            "src": "https://cdn.pixabay.com/photo/2015/04/20/06/46/office-730681_1280.jpg"
+          }
+        ],
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis qui sint incidunt pariatur eos et impedit facilis dicta! Eligendi modi qui voluptates aspernatur eaque impedit tempora vel neque est rem.",
+        "components": {
+          "furniture": [
+            {
+              "image": "https://cdn.pixabay.com/photo/2019/06/18/06/01/chair-4281511_1280.png",
+              "name": "chair",
+              "price": 70.0
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2021/12/29/18/22/table-6902452_1280.png",
+              "name": "desk",
+              "price": 150.3
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/10/17/09/04/bookshelf-992277_1280.png",
+              "name": "bookshelf",
+              "price": 95.1
+            }
+          ],
+          "tools": [
+            {
+              "image": "https://cdn.pixabay.com/photo/2017/04/18/15/42/akkuschrauber-2239493_1280.jpg",
+              "name": "drill",
+              "price": 80.0
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2012/04/13/21/06/screwdriver-33634_1280.png",
+              "name": "screwdriver",
+              "price": 10.9
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/10/15/00/27/wrench-988748_1280.jpg",
+              "name": "wrench",
+              "price": 15.7
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2017/04/04/17/14/claw-hammer-2202195_1280.jpg",
+              "name": "hammer",
+              "price": 12.3
+            }
+          ],
+          "hardware": [
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/11/20/06/32/screw-1052508_1280.jpg",
+              "name": "screws",
+              "price": 2.0
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/03/17/00/36/nails-677031_1280.jpg",
+              "name": "nails",
+              "price": 1.3
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2016/07/20/19/25/nuts-1531066_1280.jpg",
+              "name": "nuts",
+              "price": 1.7
+            }
+          ]
+        },
+        "comments": [
+          {
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "user": "Angie00",
+            "date": "10/01/2022"
+          },
+          {
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "user": "Angie01",
+            "date": "10/01/2022"
+          },
+          {
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "user": "Angie02",
+            "date": "10/01/2022"
+          }
+        ]
+      },
+      {
+        "images": [
+          {
+            "id": 1,
+            "src": "https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_1280.jpg"
+          },
+          {
+            "id": 2,
+            "src": "https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_1280.jpg"
+          },
+          {
+            "id": 3,
+            "src": "https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_1280.jpg"
+          },
+          {
+            "id": 4,
+            "src": "https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_1280.jpg"
+          },
+          {
+            "id": 5,
+            "src": "https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_1280.jpg"
+          },
+          {
+            "id": 6,
+            "src": "https://cdn.pixabay.com/photo/2017/03/28/12/11/chairs-2181960_1280.jpg"
+          }
+        ],
+        "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis qui sint incidunt pariatur eos et impedit facilis dicta! Eligendi modi qui voluptates aspernatur eaque impedit tempora vel neque est rem.",
+        "components": {
+          "furniture": [
+            {
+              "image": "https://cdn.pixabay.com/photo/2019/06/18/06/01/chair-4281511_1280.png",
+              "name": "chair",
+              "price": 70.0
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2021/12/29/18/22/table-6902452_1280.png",
+              "name": "desk",
+              "price": 150.3
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/10/17/09/04/bookshelf-992277_1280.png",
+              "name": "bookshelf",
+              "price": 95.1
+            }
+          ],
+          "tools": [
+            {
+              "image": "https://cdn.pixabay.com/photo/2017/04/18/15/42/akkuschrauber-2239493_1280.jpg",
+              "name": "drill",
+              "price": 80.0
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2012/04/13/21/06/screwdriver-33634_1280.png",
+              "name": "screwdriver",
+              "price": 10.9
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/10/15/00/27/wrench-988748_1280.jpg",
+              "name": "wrench",
+              "price": 15.7
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2017/04/04/17/14/claw-hammer-2202195_1280.jpg",
+              "name": "hammer",
+              "price": 12.3
+            }
+          ],
+          "hardware": [
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/11/20/06/32/screw-1052508_1280.jpg",
+              "name": "screws",
+              "price": 2.0
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2015/03/17/00/36/nails-677031_1280.jpg",
+              "name": "nails",
+              "price": 1.3
+            },
+            {
+              "image": "https://cdn.pixabay.com/photo/2016/07/20/19/25/nuts-1531066_1280.jpg",
+              "name": "nuts",
+              "price": 1.7
+            }
+          ]
+        },
+        "comments": [
+          {
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "user": "Angie00",
+            "date": "10/01/2022"
+          },
+          {
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "user": "Angie01",
+            "date": "10/01/2022"
+          },
+          {
+            "text": "Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+            "user": "Angie02",
+            "date": "10/01/2022"
+          }
+        ]
+      }
+    ]
+  }
+}
