@@ -26,7 +26,7 @@
         ],
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis qui sint incidunt pariatur eos et impedit facilis dicta! Eligendi modi qui voluptates aspernatur eaque impedit tempora vel neque est rem.",
         "components": {
-          "furniture": [
+          "Furniture": [
             {
               "image": "https://cdn.pixabay.com/photo/2015/02/20/15/19/chair-643246_1280.jpg",
               "name": "chair",
@@ -43,7 +43,7 @@
               "price": 45.1
             }
           ],
-          "tools": [
+          "Tools": [
             {
               "image": "https://cdn.pixabay.com/photo/2017/04/18/15/42/akkuschrauber-2239493_1280.jpg",
               "name": "drill",
@@ -65,7 +65,7 @@
               "price": 12.3
             }
           ],
-          "hardware": [
+          "Hardware": [
             {
               "image": "https://cdn.pixabay.com/photo/2015/11/20/06/32/screw-1052508_1280.jpg",
               "name": "screws",
@@ -128,7 +128,7 @@
         ],
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis qui sint incidunt pariatur eos et impedit facilis dicta! Eligendi modi qui voluptates aspernatur eaque impedit tempora vel neque est rem.",
         "components": {
-          "furniture": [
+          "Furniture": [
             {
               "image": "https://cdn.pixabay.com/photo/2019/06/18/06/01/chair-4281511_1280.png",
               "name": "chair",
@@ -145,7 +145,7 @@
               "price": 95.1
             }
           ],
-          "tools": [
+          "Tools": [
             {
               "image": "https://cdn.pixabay.com/photo/2017/04/18/15/42/akkuschrauber-2239493_1280.jpg",
               "name": "drill",
@@ -167,7 +167,7 @@
               "price": 12.3
             }
           ],
-          "hardware": [
+          "Hardware": [
             {
               "image": "https://cdn.pixabay.com/photo/2015/11/20/06/32/screw-1052508_1280.jpg",
               "name": "screws",
@@ -232,7 +232,7 @@
         ],
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis qui sint incidunt pariatur eos et impedit facilis dicta! Eligendi modi qui voluptates aspernatur eaque impedit tempora vel neque est rem.",
         "components": {
-          "furniture": [
+          "Furniture": [
             {
               "image": "https://cdn.pixabay.com/photo/2019/06/18/06/01/chair-4281511_1280.png",
               "name": "chair",
@@ -249,7 +249,7 @@
               "price": 95.1
             }
           ],
-          "tools": [
+          "Tools": [
             {
               "image": "https://cdn.pixabay.com/photo/2017/04/18/15/42/akkuschrauber-2239493_1280.jpg",
               "name": "drill",
@@ -271,7 +271,7 @@
               "price": 12.3
             }
           ],
-          "hardware": [
+          "Hardware": [
             {
               "image": "https://cdn.pixabay.com/photo/2015/11/20/06/32/screw-1052508_1280.jpg",
               "name": "screws",
