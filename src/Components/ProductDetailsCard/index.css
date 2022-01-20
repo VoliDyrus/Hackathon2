@@ -22,3 +22,17 @@
   padding: 2% 0;
   height: 60%;
 }
+
+.amount-btn {
+  width: 1.5rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button-container{
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding: 5px;
+  margin:15px;
+}

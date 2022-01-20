@@ -10,7 +10,7 @@ const ProductList = () => {
   const [products, setProducts] = useState([
     divisions.divisions.office[0].components,
   ]);
-
+  console.log(products)
   const toggleTab = (category) => {
     setToggleState(category);
   };
@@ -36,8 +36,9 @@ const ProductList = () => {
             }
           >
             {products[0][category].map((elt) => (
-              <ProductDetailsCard product={elt} />
+              <ProductDetailsCard product={elt} products={products} />
             ))}
+            
           </div>
         ))}
       </div>
