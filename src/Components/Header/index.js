@@ -46,12 +46,6 @@ function Header() {
             >
               <h2 className="title">{category} Project</h2>
               <SliderOffice division={category} />
-              <hr />
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Obcaecati praesentium incidunt quia aspernatur quasi quidem
-                facilis quo nihil vel voluptatum?
-              </p>
             </div>
           ))}
         </div>

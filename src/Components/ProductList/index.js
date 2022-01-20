@@ -1,8 +1,23 @@
 import React, { useState, useEffect } from "react";
 import ProductDetailsCard from "../ProductDetailsCard";
 import divisions from "../../Assets/hackaton.json";
+import DescriptionSection from "../Description";
+import { motion } from "framer-motion";
+
 import "./style.css";
 const original = divisions.divisions.office[0].components;
+
+const btnVariant = {
+  hover: {
+    scale: 1.1,
+    textShadow: "0px 0px 8px rgb(255,255,255)",
+    boxShadow: "0px 0px 8px rgb(255,255,255)",
+    transition: {
+      duration: 0.3,
+      yoyo: Infinity,
+    },
+  },
+};
 
 const ProductList = () => {
   const [toggleState, setToggleState] = useState("Furniture");
@@ -51,8 +66,9 @@ const ProductList = () => {
   console.log(products, basePrice, finalPrice);
   return (
     <div className="product-list">
+      <DescriptionSection />
       <hr />
-      <h3 className="title-product">Products</h3>
+      <h3 className="title-product">Products Included</h3>
       <div className="bloc-tabs2">
         {tabs.map((category) => (
           <button
@@ -101,7 +117,13 @@ const ProductList = () => {
           </div>
         </span>
       </div>
-      <br />
+      <motion.button
+        variants={btnVariant}
+        whileHover={"hover"}
+        className="add-cart"
+      >
+        <strong>Add all to Cart</strong>
+      </motion.button>
       <hr />
     </div>
   );

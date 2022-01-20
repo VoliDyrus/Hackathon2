@@ -1,0 +1,11 @@
+.add-cart {
+  margin-top: 10px;
+  width: 20%;
+  align-self: center;
+  background-color: #9cdaf6;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+  border-bottom: 1px solid rgb(56, 56, 56);
+  font-size: 3ch;
+}
