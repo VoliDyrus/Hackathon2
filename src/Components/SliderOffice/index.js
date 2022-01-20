@@ -7,10 +7,11 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import "./style.css";
 
-function SliderOffice() {
+function SliderOffice({ division }) {
   const [[page, direction], setPage] = useState([0, 0]);
 
-  const imageIndex = wrap(0, images.length, page);
+  const imageIndex = wrap(0, images[division].length, page);
+  console.log(images[division].length);
 
   const paginate = (newDirection) => {
     setPage([page + newDirection, newDirection]);
@@ -22,7 +23,7 @@ function SliderOffice() {
         <motion.img
           className="image-background"
           key={page}
-          src={images[imageIndex]}
+          src={images[division][imageIndex]}
           custom={direction}
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}

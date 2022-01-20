@@ -2,13 +2,23 @@ import { useState } from "react";
 import "./header.css";
 import headerImg from "./image1.png";
 import SliderOffice from "../SliderOffice";
-import SliderKitchen from "../SliderKitchen";
+
+const divisions = [
+  "Office",
+  "Kitchen",
+  "Bathroom",
+  "Bedroom",
+  "Living_Room",
+  "Dining_Room",
+  "Garden",
+  "Balcony",
+];
 
 function Header() {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState("Office");
 
-  const toggleTab = (index) => {
-    setToggleState(index);
+  const toggleTab = (name) => {
+    setToggleState(name);
   };
 
   return (
@@ -16,48 +26,34 @@ function Header() {
       <img src={headerImg} alt="header" width="100%" />
       <div className="container">
         <div className="bloc-tabs">
-          <button
-            className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
-            onClick={() => toggleTab(1)}
-          >
-            Office
-          </button>
-          <button
-            className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
-            onClick={() => toggleTab(2)}
-          >
-            Kitchen
-          </button>
+          {divisions.map((division) => (
+            <button
+              key={division}
+              className={toggleState === division ? "tabs active-tabs" : "tabs"}
+              onClick={() => toggleTab(division)}
+            >
+              {division}
+            </button>
+          ))}
         </div>
 
         <div className="content-tabs">
-          <div
-            className={
-              toggleState === 1 ? "content  active-content" : "content"
-            }
-          >
-            <h2 className="title">Office Project</h2>
-
-            <SliderOffice />
-          </div>
-
-          <div
-            className={
-              toggleState === 2 ? "content  active-content" : "content"
-            }
-          >
-            <h2 className="title">Kitchen Project</h2>
-
-            <SliderKitchen />
-          </div>
-
-          <div
-            className={
-              toggleState === 3 ? "content  active-content" : "content"
-            }
-          >
-            <h2>Content 3</h2>
-          </div>
+          {divisions.map((category) => (
+            <div
+              className={
+                toggleState === category ? "content  active-content" : "content"
+              }
+            >
+              <h2 className="title">{category} Project</h2>
+              <SliderOffice division={category} />
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Obcaecati praesentium incidunt quia aspernatur quasi quidem
+                facilis quo nihil vel voluptatum?
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </>
