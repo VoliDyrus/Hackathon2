@@ -16,7 +16,7 @@ const ProductList = () => {
   };
 
   return (
-    <>
+    <div className="product-list">
       <div className="bloc-tabs">
         {tabs.map((category) => (
           <button
@@ -42,7 +42,7 @@ const ProductList = () => {
           </div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

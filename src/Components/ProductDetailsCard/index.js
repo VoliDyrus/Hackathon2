@@ -36,6 +36,8 @@ const ProductDetailsCard = ({ product, products }) => {
           
         </div>
         {totalPrice}
+
+        <button className="remove-btn">Remove</button>
       </div>
     </div>
   );

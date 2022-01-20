@@ -1,3 +1,7 @@
+.product-list {
+  display: block;
+}
+
 .card-holder {
   display: inline-block;
 }
@@ -35,4 +39,9 @@
   border-radius: 10px;
   padding: 5px;
   margin:15px;
+}
+.remove-btn {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0.3rem;
 }
