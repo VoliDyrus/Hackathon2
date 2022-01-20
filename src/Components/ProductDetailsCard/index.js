@@ -8,6 +8,7 @@ const ProductDetailsCard = ({ product }) => {
         <img src={product.image} alt={product.name} />
         <br />
         <span>{product.name}</span>&nbsp;<span>{product.price}</span>
+        <button className="remove-btn">Remove</button>
       </div>
     </div>
   );
