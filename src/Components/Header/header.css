@@ -1,6 +1,7 @@
 .container {
   position: fixed;
   height: 100vh;
+  width: 100vw;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -71,4 +72,12 @@ button {
 
 .active-content {
   display: block;
+}
+
+.title {
+  width: 80vw;
+  font-size: 5rem;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgb(28, 0, 128);
+  border-radius: 10px;
 }

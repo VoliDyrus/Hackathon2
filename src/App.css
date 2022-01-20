@@ -7,5 +7,15 @@
 body {
   width: 100vw;
   height: 100vh;
-  overflow-x: hidden;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgb(175, 175, 175);
+  border-width: 5px;
+  width: 20%;
+  align-self: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }

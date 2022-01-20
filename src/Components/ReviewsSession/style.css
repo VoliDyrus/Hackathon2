@@ -1,11 +1,23 @@
 .reviews-wrapper {
   display: flex;
+  flex-direction: column;
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   justify-content: center;
   background-image: url("background123.webp");
-  background-repeat: repeat-x;
+  background-repeat: repeat;
   background-size: auto;
+}
+
+.review-title {
+  text-align: center;
+  font-size: 3rem;
+  border-radius: 20px;
+  width: 20vw;
+  align-self: center;
+
+  border-bottom: 1px solid rgb(100, 100, 100);
+  background-color: rgb(230 245 246);
 }
 
 .review-user {
@@ -25,6 +37,7 @@
   width: 80%;
   position: relative;
   display: flex;
+  align-self: center;
   flex-direction: column;
   background-color: #01c4ba25;
   border-bottom: 2px solid #0000005d;
