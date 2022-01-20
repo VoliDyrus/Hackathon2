@@ -11,7 +11,7 @@ function Header() {
 
   return (
     <>
-      <img src={headerImg} alt="header" />
+      <img src={headerImg} alt="header" width="100%" />
       <div className="container">
         <div className="bloc-tabs">
           <button
