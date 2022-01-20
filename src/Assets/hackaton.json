@@ -128,60 +128,77 @@
         ],
         "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis qui sint incidunt pariatur eos et impedit facilis dicta! Eligendi modi qui voluptates aspernatur eaque impedit tempora vel neque est rem.",
         "components": {
-          "Furniture": [
+          "types": ["Furniture", "Tools", "Hardware"],
+          "products": [
             {
               "image": "https://cdn.pixabay.com/photo/2019/06/18/06/01/chair-4281511_1280.png",
               "name": "chair",
-              "price": 70.0
+              "price": 70.0,
+              "type": "Furniture",
+              "quantity": 1
             },
             {
               "image": "https://cdn.pixabay.com/photo/2021/12/29/18/22/table-6902452_1280.png",
               "name": "desk",
-              "price": 150.3
+              "price": 150.3,
+              "type": "Furniture",
+              "quantity": 1
             },
             {
               "image": "https://cdn.pixabay.com/photo/2015/10/17/09/04/bookshelf-992277_1280.png",
               "name": "bookshelf",
-              "price": 95.1
-            }
-          ],
-          "Tools": [
+              "price": 95.1,
+              "type": "Furniture",
+              "quantity": 1
+            },
             {
               "image": "https://cdn.pixabay.com/photo/2017/04/18/15/42/akkuschrauber-2239493_1280.jpg",
               "name": "drill",
-              "price": 80.0
+              "price": 80.0,
+              "type": "Tools",
+              "quantity": 1
             },
             {
               "image": "https://cdn.pixabay.com/photo/2012/04/13/21/06/screwdriver-33634_1280.png",
               "name": "screwdriver",
-              "price": 10.9
+              "price": 10.9,
+              "type": "Tools",
+              "quantity": 1
             },
             {
               "image": "https://cdn.pixabay.com/photo/2015/10/15/00/27/wrench-988748_1280.jpg",
               "name": "wrench",
-              "price": 15.7
+              "price": 15.7,
+              "type": "Tools",
+              "quantity": 1
             },
             {
               "image": "https://cdn.pixabay.com/photo/2017/04/04/17/14/claw-hammer-2202195_1280.jpg",
               "name": "hammer",
-              "price": 12.3
-            }
-          ],
-          "Hardware": [
+              "price": 12.3,
+              "type": "Tools",
+              "quantity": 1
+            },
             {
               "image": "https://cdn.pixabay.com/photo/2015/11/20/06/32/screw-1052508_1280.jpg",
               "name": "screws",
-              "price": 2.0
+              "price": 0.5,
+              "type": "Hardware",
+              "quantity": 10
             },
             {
               "image": "https://cdn.pixabay.com/photo/2015/03/17/00/36/nails-677031_1280.jpg",
               "name": "nails",
-              "price": 1.3
+              "price": 0.3,
+              "type": "Hardware",
+              "quantity": 7
             },
             {
               "image": "https://cdn.pixabay.com/photo/2016/07/20/19/25/nuts-1531066_1280.jpg",
               "name": "nuts",
-              "price": 1.7
+              "price": 0.7,
+              "type": "Hardware",
+              "quantity": 15
             }
           ]
         },

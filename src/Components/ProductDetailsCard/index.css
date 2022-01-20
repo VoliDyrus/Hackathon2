@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 35vh;
+  height: 50vh;
   margin: 0 1vw;
   -webkit-box-shadow: inset 10px 10px 44px 0px rgba(0, 0, 0, 0.21);
   -moz-box-shadow: inset 10px 10px 44px 0px rgba(0, 0, 0, 0.21);
@@ -24,7 +24,7 @@
 .card img {
   width: 70%;
   padding: 2% 0;
-  height: 60%;
+  height: 40%;
 }
 
 .amount-btn {
@@ -34,11 +34,11 @@
   cursor: pointer;
 }
 
-.button-container{
+.button-container {
   border: 1px solid lightblue;
   border-radius: 10px;
   padding: 5px;
-  margin:15px;
+  margin: 15px;
 }
 .remove-btn {
   border: 1px solid black;
