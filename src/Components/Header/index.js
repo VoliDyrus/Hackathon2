@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./header.css";
 import headerImg from "./image1.png";
+import SliderOffice from "../SliderOffice";
+import SliderKitchen from "../SliderKitchen";
 
 function Header() {
   const [toggleState, setToggleState] = useState(1);
@@ -36,6 +38,7 @@ function Header() {
           >
             <h2>Office Project</h2>
             <hr />
+            <SliderOffice />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
               praesentium incidunt quia aspernatur quasi quidem facilis quo
@@ -50,6 +53,7 @@ function Header() {
           >
             <h2>Kitchen Project</h2>
             <hr />
+            <SliderKitchen />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
               voluptatum qui adipisci.
