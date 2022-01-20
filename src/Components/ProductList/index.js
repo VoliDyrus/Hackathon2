@@ -20,19 +20,16 @@ const ProductList = () => {
     return array.reduce(reducer, 0).toFixed(2);
   };
 
-  const changeQuantity = (name, operation) => {
-    setProducts((prev) => {
-      const newQuantity = [...prev];
-      const indexToUpdate = newQuantity.findIndex((elt) => elt.name === name);
-      if (operation === "add") {
-        newQuantity[indexToUpdate].quantity =
-          newQuantity[indexToUpdate].quantity + 1;
-      } else {
-        newQuantity[indexToUpdate].quantity =
-          newQuantity[indexToUpdate].quantity - 1;
-      }
-      return newQuantity;
-    });
+  const addProduct = (index) => {
+    const changedProduct = [...products];
+    changedProduct[index].quantity += 1;
+    setProducts(changedProduct);
+  };
+
+  const removeProduct = (index) => {
+    const changedProduct = [...products];
+    if (changedProduct[index].quantity > 0) changedProduct[index].quantity -= 1;
+    setProducts(changedProduct);
   };
 
   const removeItem = (name) => {
@@ -74,16 +71,33 @@ const ProductList = () => {
             >
               {products
                 .filter((product) => product.type === category)
-                .map((elt) => (
+                .map((elt, index) => (
                   <ProductDetailsCard
                     product={elt}
-                    changeQuantity={changeQuantity}
+                    removeProduct={removeProduct}
+                    addProduct={addProduct}
                     removeItem={removeItem}
+                    index={index}
                   />
                 ))}
             </div>
           ))}
       </div>
+
+      <div
+        className="prices"
+        style={{
+          display: "flex",
+          justifyContent: "space-around",
+          backgroundColor: "rgb(88, 147, 241)",
+        }}
+      >
+        <span>{basePrice}</span>
+        &nbsp;
+        <span>{finalPrice}</span>
+      </div>
+      <br />
+      <hr />
     </div>
   );
 };
