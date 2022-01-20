@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import ProductDetailsCard from "../ProductDetailsCard";
 import divisions from "../../Assets/hackaton.json";
+import "./style.css";
 
 const ProductList = () => {
   const [toggleState, setToggleState] = useState("Furniture");
@@ -17,7 +18,7 @@ const ProductList = () => {
 
   return (
     <div className="product-list">
-      <div className="bloc-tabs">
+      <div className="bloc-tabs2">
         {tabs.map((category) => (
           <button
             className={toggleState === category ? "tabs active-tabs" : "tabs"}
@@ -28,7 +29,7 @@ const ProductList = () => {
         ))}
       </div>
 
-      <div className="content-tabs">
+      <div className="content-tabs2">
         {tabs.map((category) => (
           <div
             className={

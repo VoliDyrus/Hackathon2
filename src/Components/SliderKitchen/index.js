@@ -5,6 +5,7 @@ import { wrap } from "@popmotion/popcorn";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import "./style.css";
 
 function SliderKitchen() {
   const [[page, direction], setPage] = useState([0, 0]);
@@ -16,9 +17,10 @@ function SliderKitchen() {
   };
 
   return (
-    <div className="slider-wrapper-kitchen">
+    <div className="slider-wrapper">
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
+          className="image-background"
           key={page}
           src={images[imageIndex]}
           custom={direction}
@@ -41,7 +43,7 @@ function SliderKitchen() {
       <motion.button
         whileHover={{ scale: 1.2, transition: { duration: 0.5 } }}
         whileTap={{ scale: 0.9 }}
-        className="next-button"
+        className="next"
         onClick={() => paginate(1)}
       >
         <FontAwesomeIcon icon={faArrowRight} sizw="2x" />
@@ -49,7 +51,7 @@ function SliderKitchen() {
       <motion.button
         whileHover={{ scale: 1.2, transition: { duration: 0.5 } }}
         whileTap={{ scale: 0.9 }}
-        className="prev-button"
+        className="prev"
         onClick={() => paginate(-1)}
       >
         <FontAwesomeIcon icon={faArrowLeft} sizw="2x" />

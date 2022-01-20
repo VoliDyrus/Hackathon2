@@ -5,6 +5,7 @@ import { wrap } from "@popmotion/popcorn";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
+import "./style.css";
 
 function SliderOffice() {
   const [[page, direction], setPage] = useState([0, 0]);
@@ -19,6 +20,7 @@ function SliderOffice() {
     <div className="slider-wrapper">
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
+          className="image-background"
           key={page}
           src={images[imageIndex]}
           custom={direction}
@@ -33,15 +35,13 @@ function SliderOffice() {
               opacity: { duration: 1 },
             },
           }}
-          drag="x"
-          dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={1}
+          whileHover={{ scale: 1.02 }}
         />
       </AnimatePresence>
       <motion.button
         whileHover={{ scale: 1.2, transition: { duration: 0.5 } }}
         whileTap={{ scale: 0.9 }}
-        className="next-button"
+        className="next"
         onClick={() => paginate(1)}
       >
         <FontAwesomeIcon icon={faArrowRight} sizw="2x" />
@@ -49,7 +49,7 @@ function SliderOffice() {
       <motion.button
         whileHover={{ scale: 1.2, transition: { duration: 0.5 } }}
         whileTap={{ scale: 0.9 }}
-        className="prev-button"
+        className="prev"
         onClick={() => paginate(-1)}
       >
         <FontAwesomeIcon icon={faArrowLeft} sizw="2x" />
