@@ -8,7 +8,6 @@ const ProductDetailsCard = ({
   addProduct,
   removeProduct,
   removeItem,
-  index,
 }) => {
   return (
     <div className="card-holder">
@@ -22,11 +21,17 @@ const ProductDetailsCard = ({
             <strong>Unit Price</strong>: <em>€{product.price}</em>
           </span>
           <div className="button-container">
-            <button className="amount-btn" onClick={() => removeProduct(index)}>
+            <button
+              className="amount-btn"
+              onClick={() => removeProduct(product.name)}
+            >
               -
             </button>
             {product.quantity}
-            <button className="amount-btn" onClick={() => addProduct(index)}>
+            <button
+              className="amount-btn"
+              onClick={() => addProduct(product.name)}
+            >
               +
             </button>
           </div>

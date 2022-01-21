@@ -36,14 +36,16 @@ const ProductList = () => {
     return array.reduce(reducer, 0).toFixed(2);
   };
 
-  const addProduct = (index) => {
+  const addProduct = (name) => {
     const changedProduct = [...products];
+    const index = changedProduct.findIndex((elt) => elt.name === name);
     changedProduct[index].quantity += 1;
     setProducts(changedProduct);
   };
 
-  const removeProduct = (index) => {
+  const removeProduct = (name) => {
     const changedProduct = [...products];
+    const index = changedProduct.findIndex((elt) => elt.name === name);
     if (changedProduct[index].quantity > 0) changedProduct[index].quantity -= 1;
     setProducts(changedProduct);
   };
@@ -98,7 +100,6 @@ const ProductList = () => {
                     removeProduct={removeProduct}
                     addProduct={addProduct}
                     removeItem={removeItem}
-                    index={index}
                   />
                 ))}
             </div>
